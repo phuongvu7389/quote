@@ -1,3 +1,4 @@
+/*index page css*/
 .intro-body {
     position: relative;
 }
@@ -136,6 +137,21 @@
 .text-item-authr a {
     color: white;
 }
+
+/*author page css*/
+#wrap-author-page{
+    margin:100px 0;
+}
+.tag-slide .item a{
+    background: lightcoral;
+    padding: 20px;
+    display: block;
+}
+
+
+
+
+
 
 
 /* Small devices (tablets, 768px and down) */
