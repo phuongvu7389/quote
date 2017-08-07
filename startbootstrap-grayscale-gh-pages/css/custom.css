@@ -44,6 +44,7 @@
 .v-center-wrap {
     position: relative;
     height: 300px;
+    background: rgb(55, 61, 93);
 }
 
 .v-center {
@@ -138,11 +139,13 @@
 
 
 /* Small devices (tablets, 768px and down) */
+
 @media (max-width: 1200px) {
     .wrap-search {
         width: 320px;
     }
 }
+
 @media (max-width: 768px) {
     .wrap-search {
         width: 270px;
@@ -152,18 +155,19 @@
         bottom: inherit;
         padding: 10px;
     }
-    .v-center .item{
+    .v-center .item {
         font-size: 12px;
     }
-    .row.partner{
+    .row.partner {
         margin-bottom: 20px;
     }
     .quoteslide {
-        
-    background-size: 300%;}
-    .title-topic{
-    word-spacing: 100vw;
+        background-size: 300%;
+    }
+    .title-topic {
+        /* word-spacing: 100vw; */
+         transform: rotate(90deg);
+    white-space: nowrap;
+    left: 0px;
+    }
 }
-}
-
-
