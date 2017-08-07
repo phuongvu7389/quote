@@ -139,11 +139,11 @@
 }
 
 /*author page css*/
-#wrap-author-page{
+.margin-top-bott-100{
     margin:100px 0;
 }
 .tag-slide .item a{
-    background: lightcoral;
+    /* background: lightcoral; */
     padding: 20px;
     display: block;
 }
