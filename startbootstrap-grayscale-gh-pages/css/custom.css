@@ -166,8 +166,9 @@
     }
     .title-topic {
         /* word-spacing: 100vw; */
-         transform: rotate(90deg);
-    white-space: nowrap;
-    left: 0px;
+        transform: rotate(90deg);
+        white-space: nowrap;
+        left: -20px;
+        text-transform: uppercase;
     }
 }
