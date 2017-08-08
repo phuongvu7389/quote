@@ -169,6 +169,10 @@
     list-style: none;
 }
 
+.wrap-topic-detail {
+    margin: 30px 0;
+}
+
 .wrap-right-side-topic ul li {
     margin-bottom: 25px;
     background-repeat-x: no-repeat;
@@ -191,18 +195,27 @@
     border-left: 5px solid green;
     height: 60px;
 }
+
 .wrap-item-random-quote .item {
     padding-left: 15px;
 }
+
 .wrap-item-random-quote .item a {
     display: block;
     overflow: hidden;
-    /* white-space: nowrap; 
-    
-    text-overflow: ellipsis;*/
 }
 
-
+#breadcrum ul li {
+    list-style: none;
+    display: inline-block;
+}
+#breadcrum ul li:after{
+    content:"»";
+    color: #ccc;
+}
+#breadcrum ul li:last-child:after{
+    content: '';
+}
 /* Small devices (tablets, 768px and down) */
 
 @media (max-width: 1200px) {
