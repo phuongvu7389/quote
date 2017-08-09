@@ -289,6 +289,7 @@
     border: 2px solid rgba(28, 28, 28, 1);
     -webkit-transition: border-radius 0.5s;
     transition: border-radius 0.5s;
+    box-shadow: 0 0 1px 1px black;
 }
 .pin-img a img:hover{
     border-radius: 20px;
