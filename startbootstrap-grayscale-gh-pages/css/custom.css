@@ -209,13 +209,91 @@
     list-style: none;
     display: inline-block;
 }
-#breadcrum ul li:after{
-    content:"»";
+
+#breadcrum ul li:after {
+    content: "»";
     color: #ccc;
 }
-#breadcrum ul li:last-child:after{
+
+#breadcrum ul li:last-child:after {
     content: '';
 }
+
+
+/*Pinterest page*/
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.row-pin {
+    /* column width */
+    -moz-column-width: 19em;
+    -webkit-column-width: 19em;
+    /* space between columns */
+    -moz-column-gap: 1em;
+    -webkit-column-gap: 1em;
+}
+
+.row-pin .item {
+    display: inline-block;
+    width: 100%;
+}
+
+.item .well {
+    display: block;
+}
+
+.item.well {
+    box-shadow: none;
+    -webkit-transition: box-shadow 0.5s;
+    /* For Safari 3.1 to 6.0 */
+    transition: box-shadow 0.5s;
+}
+
+.item.well:hover {
+    box-shadow: 0px 0px 6px 5px #828080;
+}
+
+.row-pin .item p {
+    color: black;
+}
+
+.pin-author {
+    text-align: center;
+}
+
+.pin-author a {
+    padding: 10px;
+    background: #333;
+    display: block;
+    border-radius: 5px;
+    color: white;
+}
+
+.pin-author a:hover {
+    background: #555;
+}
+
+.pin-info {
+    text-align: center;
+}
+
+.pin-info a {
+    color: black;
+}
+
+.pin-img a img {
+    border: 2px solid rgba(28, 28, 28, 1);
+    -webkit-transition: border-radius 0.5s;
+    transition: border-radius 0.5s;
+}
+.pin-img a img:hover{
+    border-radius: 20px;
+}
+
 /* Small devices (tablets, 768px and down) */
 
 @media (max-width: 1200px) {
