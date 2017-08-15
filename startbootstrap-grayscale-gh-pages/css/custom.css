@@ -291,9 +291,33 @@
     transition: border-radius 0.5s;
     box-shadow: 0 0 1px 1px black;
 }
-.pin-img a img:hover{
+
+.pin-img a img:hover {
     border-radius: 20px;
 }
+
+.author-quote-detail {
+    border: 1px solid #eaeaea;
+    padding: 5px;
+    text-align: center;
+}
+
+
+/*detail page*/
+
+.content-detail-quote .text {
+    font-size: 30px;
+    background: #eaeaea;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.text span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
 
 /* Small devices (tablets, 768px and down) */
 
