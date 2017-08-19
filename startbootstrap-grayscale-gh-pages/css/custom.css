@@ -46,7 +46,6 @@
 .v-center-wrap {
     position: relative;
     height: 300px;
-    background: rgb(55, 61, 93);
 }
 
 .v-center {
@@ -61,10 +60,11 @@
 }
 
 .quoteslide {
-    border: 1px solid white;
-    background: url(../img/bg-topic.jpg)center center;
-    background-size: 150%;
+    /* border: 1px solid white; */
+    /* background: url(../img/bg-topic.jpg)center center; */
+    /* background-size: 150%; */
     text-overflow: ellipsis;
+    background: black;
     /* background: rgba(76, 76, 76, 1);
     background: -moz-linear-gradient(45deg, rgba(76, 76, 76, 1) 0%, rgba(44, 44, 44, 1) 0%, rgba(89, 89, 89, 1) 12%, rgba(102, 102, 102, 1) 25%, rgba(71, 71, 71, 1) 39%, rgba(17, 17, 17, 1) 60%, rgba(43, 43, 43, 1) 78%, rgba(28, 28, 28, 1) 91%, rgba(19, 19, 19, 1) 100%);
     background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(76, 76, 76, 1)), color-stop(0%, rgba(44, 44, 44, 1)), color-stop(12%, rgba(89, 89, 89, 1)), color-stop(25%, rgba(102, 102, 102, 1)), color-stop(39%, rgba(71, 71, 71, 1)), color-stop(60%, rgba(17, 17, 17, 1)), color-stop(78%, rgba(43, 43, 43, 1)), color-stop(91%, rgba(28, 28, 28, 1)), color-stop(100%, rgba(19, 19, 19, 1)));
@@ -75,6 +75,24 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1); */
 }
 
+/* Topic Box*/
+.topic-box-love{
+    background: rgba(243, 96, 123,1);
+    padding-bottom: 1px;
+}
+.topic-box-life{
+    background: rgb(32, 110, 191);
+    padding-bottom: 1px;
+}
+.topic-box-friend{
+    background: rgba(187, 5, 38, 0.87);
+    padding-bottom: 1px;
+}
+
+.home-middle-slide{
+    background: url('../img/bg-pattern.jpg');
+    padding: 50px 20px 40px 20px;
+}
 .slide-height-homeview .item img {
     margin: 10px 0;
     border: 1px solid white;
@@ -114,7 +132,7 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(45, 45, 45, 0.95);
+    background-color: rgba(0, 0, 0, 0.90);
 }
 
 .item-authr:hover .overlay-item-authr {
@@ -317,7 +335,43 @@
     font-size: 30px;
     font-weight: bold;
 }
+.title-topic{ font-size: 30px;}
 
+
+
+blockquote {
+  font-family: Georgia, serif;
+  border-left: 0px !important;
+  quotes: "\201C""\201D";
+  padding :0!important; 
+  border-left: none !important;
+  text-align: center;
+}
+blockquote p:before {
+  color: #c00f1e;
+  content: open-quote;
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+  line-height: 1.85 !important;
+  font-weight:20 !important;
+}
+blockquote p:after {
+  color: #c00f1e;
+  content: close-quote;
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote .quote_description{
+font-size:18px;
+}
+cite { display: inline-block; color: silver; text-align: right; width: 100%;}
 
 /* Small devices (tablets, 768px and down) */
 
