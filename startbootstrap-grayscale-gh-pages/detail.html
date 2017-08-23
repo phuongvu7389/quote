@@ -84,7 +84,7 @@
 
     <section id="wrap-author-slide-tag" class="margin-top-bot-100">
 
-        <div class="container-fluid wrap-tag-nav">
+        <div class="container-fluid wrap-tag-nav no-gutter">
             <div class="owl-1 owl-carousel owl-theme tag-slide">
                 <div class="item" style="background-image:url(&quot;https://source.unsplash.com/500x100/?nature&sig='.rand(0,10).'&quot;);"><a class="background-topic-item" href="">Baby</a></div>
                 <div class="item" style="background-image:url(&quot;https://source.unsplash.com/500x100/?nature&sig='.rand(11,20).'&quot;);"><a class="background-topic-item" href="">Love</a></div>
@@ -212,6 +212,17 @@
                     <div class="item">
                         <a href="">on our templates, give us suggestions for new templates and themes, or to just say hello!</a>
                     </div>
+                    <div class="owl-controls">
+                        <div class="owl-nav">
+                            <div class="owl-prev">prev</div>
+                            <div class="owl-next">next</div>
+                        </div>
+                        <div class="owl-dots">
+                            <div class="owl-dot active"><span></span></div>
+                            <div class="owl-dot"><span></span></div>
+                            <div class="owl-dot"><span></span></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -241,7 +252,6 @@
             </div>
         </div>
     </section>
-
     <!-- Map Section -->
     <!-- <div id="map"></div> -->
 
@@ -274,7 +284,7 @@
             margin: 10,
             nav: true,
             navText: ["", ""],
-            
+
             responsive: {
                 0: {
                     items: 1
@@ -295,7 +305,8 @@
             margin: 10,
             autoplay: true,
             autoplayTimeout: 2000,
-            autoplayHoverPause: true
+            autoplayHoverPause: true,
+            nav: true
         });
     </script>
 
