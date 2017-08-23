@@ -188,21 +188,21 @@ a:hover span {
 .wrap-tag-nav .owl-prev,
 .wrap-tag-nav .owl-next {
     position: absolute;
-    color: black;
+    color: #ccc;
     display: block;
     top: 0%;
 }
 
 .wrap-tag-nav .owl-prev {
     left: 0px;
-    background-image: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 90%);
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 95%);
     width: 250px;
     height: 60px;
 }
 
 .wrap-tag-nav .owl-next {
     right: 0px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #fff 90%);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, black 95%);
     width: 250px;
     height: 60px;
 }
@@ -218,7 +218,7 @@ a:hover span {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    color: #ccc;
+    color: #555;
     font-size: 20px;
     transition: color 0.5s;
 }
@@ -229,7 +229,7 @@ a:hover span {
 }
 
 .wrap-tag-nav .owl-prev:hover:before {
-    color: black;
+    color: white;
 }
 
 .wrap-tag-nav .owl-next:after {
@@ -238,7 +238,7 @@ a:hover span {
 }
 
 .wrap-tag-nav .owl-next:hover:after {
-    color: black;
+    color: white;
 }
 
 
