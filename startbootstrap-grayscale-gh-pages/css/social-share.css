@@ -7,8 +7,9 @@
 /* footer social icons */
 ul.social-network {
 	list-style: none;
-	display: inline;
-	 margin-left:15px !important; 
+	display: block;
+	text-align:center;
+	 margin-left:0px !important; 
 	padding: 0;
 }
 ul.social-network li {
@@ -45,21 +46,21 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 .social-circle li a {
-	display:inline-block;
-	position:relative;
-	margin:0 auto 0 auto;
-	-moz-border-radius:50%;
-	-webkit-border-radius:50%;
-	border-radius:50%;
-	text-align:center;
-	width: 50px;
-	height: 50px;
-    font-size:20px;
+	display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
     margin: 5px 0;
 }
 .social-circle li i {
 	margin:0;
-	line-height:50px;
+	line-height:30px;
 	text-align: center;
 }
 
