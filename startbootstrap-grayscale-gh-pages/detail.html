@@ -84,7 +84,7 @@
 
     <section id="wrap-author-slide-tag" class="margin-top-bot-100">
 
-        <div class="container-fluid">
+        <div class="container-fluid wrap-tag-nav">
             <div class="owl-1 owl-carousel owl-theme tag-slide">
                 <div class="item" style="background-image:url(&quot;https://source.unsplash.com/500x100/?nature&sig='.rand(0,10).'&quot;);"><a class="background-topic-item" href="">Baby</a></div>
                 <div class="item" style="background-image:url(&quot;https://source.unsplash.com/500x100/?nature&sig='.rand(11,20).'&quot;);"><a class="background-topic-item" href="">Love</a></div>
@@ -99,6 +99,7 @@
                 <div class="item" style="background-image:url(&quot;https://source.unsplash.com/500x100/?nature&sig='.rand(41,10).'&quot;);"><a class="background-topic-item" href="">Sound</a></div>
                 <div class="item" style="background-image:url(&quot;https://source.unsplash.com/500x100/?nature&sig='.rand(41,10).'&quot;);"><a class="background-topic-item" href="">Huge</a></div>
             </div>
+
         </div>
     </section>
     <section class="margin-top-bot-100">
@@ -392,7 +393,6 @@
                                 <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
                             </ul>
                         </div>
-                        
                     </div>
                 </div>
 
@@ -435,57 +435,6 @@
     </section>
 
 
-    <section id="related-post">
-        <div class="container">
-            <h1>Related Content</h1>
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">content is here</div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">content is here</div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">content is here</div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">content is here</div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">content is here</div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">content is here</div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">content is here</div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">content is here</div>
-            </div>
-        </div>
-    </section>
-
-    <section id="random-quote" class="margin-top-bot-100">
-        <div class="container">
-            <div class="row">
-                <div class="owl-2 owl-carousel wrap-item-random-quote">
-                    <div class="item">
-                        <a href="">Feel free to email us to ello!Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes,  give us suggestions for new templates and themes, or to just say hello!Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</a>
-                    </div>
-                    <div class="item">
-                        <a href="">Feel free to email us just say hello!Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</a>
-                    </div>
-                    <div class="item">
-                        <a href="">Feel free to email us to provide some feed say hello!Feel free te feedback on our templates, give us suggestions for new templates and themes, or to just say hello!Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</a>
-                    </div>
-                    <div class="item">
-                        <a href="">Feel free to email us to provide some fee to just say hello!Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</a>
-                    </div>
-                    <div class="item">
-                        <a href="">Feel free to email us to provide some feedback lates and themes, or to just say hello!</a>
-                    </div>
-                    <div class="item">
-                        <a href="">Feel free to eor to just say hello!Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</a>
-                    </div>
-                    <div class="item">
-                        <a href="">Feel free to email us to provide some feedback on our templates, give us suggestions for new test say hello!</a>
-                    </div>
-                    <div class="item">
-                        <a href="">Feel free t say hello!Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</a>
-                    </div>
-                    <div class="item">
-                        <a href="">on our templates, give us suggestions for new templates and themes, or to just say hello!</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- Contact Section -->
     <section id="contact" class="text-center margin-top-bot-100">
         <div class="container">
@@ -542,6 +491,9 @@
         $('.owl-1').owlCarousel({
             loop: true,
             margin: 10,
+            nav: true,
+            navText: ["", ""],
+            
             responsive: {
                 0: {
                     items: 1
@@ -565,7 +517,7 @@
             autoplayHoverPause: true
         });
     </script>
-   
+
 </body>
 
 </html>
