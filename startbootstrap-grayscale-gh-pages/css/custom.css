@@ -1,12 +1,12 @@
 /*index page css*/
 
-a:hover{
-    color: green !important;
-}
-a:hover span{
+a:hover {
     color: green !important;
 }
 
+a:hover span {
+    color: green !important;
+}
 
 .intro-body {
     position: relative;
@@ -83,24 +83,29 @@ a:hover span{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1); */
 }
 
+
 /* Topic Box*/
-.topic-box-love{
-    background: rgba(243, 96, 123,1);
+
+.topic-box-love {
+    background: rgba(243, 96, 123, 1);
     padding-bottom: 1px;
 }
-.topic-box-life{
+
+.topic-box-life {
     background: rgb(32, 110, 191);
     padding-bottom: 1px;
 }
-.topic-box-friend{
+
+.topic-box-friend {
     background: rgba(187, 5, 38, 0.87);
     padding-bottom: 1px;
 }
 
-.home-middle-slide{
+.home-middle-slide {
     background: rgba(28, 28, 28, 0.4);
     padding: 50px 20px 40px 20px;
 }
+
 .slide-height-homeview .item img {
     margin: 10px 0;
     border: 1px solid white;
@@ -165,6 +170,62 @@ a:hover span{
     color: white;
 }
 
+
+/*Top slide Tag style*/
+
+.wrap-tag-nav {
+    position: relative;
+}
+
+.wrap-tag-nav .owl-prev,
+.wrap-tag-nav .owl-next {
+    position: absolute;
+    color: black;
+    display: block;
+    top:0%;
+}
+
+.wrap-tag-nav .owl-prev {
+    left: 0px;
+background-image: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 90%);
+    width: 250px;
+    height: 60px;
+}
+
+.wrap-tag-nav .owl-next {
+    right: 0px;
+background-image:linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #fff 90%);
+width: 250px;
+    height: 60px;
+}
+.owl-carousel .owl-nav .owl-prev,
+  .owl-carousel .owl-nav .owl-next,
+  .owl-carousel .owl-dot {
+    font-family: 'fontAwesome';
+
+}
+.wrap-tag-nav .owl-prev:before,.wrap-tag-nav .owl-next:after{
+     position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    color:#ccc;
+    font-size: 20px;
+    transition: color 0.5s;
+}
+.wrap-tag-nav .owl-prev:before{
+    left:5%;
+    content: "\f053";
+}
+.wrap-tag-nav .owl-prev:hover:before {
+    color:black;
+}
+.wrap-tag-nav .owl-next:after{
+  right:5%;
+    content: "\f054";
+}
+.wrap-tag-nav .owl-next:hover:after {
+    color:black;
+}
 
 /*TOPIC page css*/
 
@@ -331,55 +392,68 @@ a:hover span{
     text-align: center;
 }
 
-.topic-in-post{
+.topic-in-post {
     display: inline-block;
     padding: 0;
-    margin: 10px;   
-
+    margin: 10px;
 }
-.topic-in-post a{ color: black;}
-.topic-in-post li{ list-style: none; display: inline-block;}
 
+.topic-in-post a {
+    color: black;
+}
 
-.profession{
+.topic-in-post li {
+    list-style: none;
+    display: inline-block;
+}
+
+.profession {
     font-family: cursive;
     color: #e1e1e1;
 }
-.right-bar-nav{
+
+.right-bar-nav {
     background: rgba(28, 28, 28, 0.5);
     margin-bottom: 20px;
 }
-.right-bar-nav h3{
+
+.right-bar-nav h3 {
     padding: 0;
-    margin:0;
+    margin: 0;
     background: rgba(28, 28, 28, 1);
     color: white;
     font-family: cursive;
     padding: 7px;
     margin-bottom: 10px;
 }
-.right-bar-nav ul{
+
+.right-bar-nav ul {
     padding: 0;
     float: left;
 }
-.right-bar-nav ul li{
+
+.right-bar-nav ul li {
     padding: 10px 7px 5px 7px;
     border-bottom: rgba(28, 28, 28, 0.2);
     color: white;
     list-style: none;
     float: left;
-    width:100%;
+    width: 100%;
 }
-.wrap-right-side-topic ul li{
+
+.wrap-right-side-topic ul li {
     padding: 0;
     width: 90%;
     margin: 5px 5%;
 }
-.right-bar-nav ul li a{
+
+.right-bar-nav ul li a {
     float: left;
     width: 100%;
     color: white;
 }
+
+
 /*detail page*/
 
 .content-detail-quote .text {
@@ -394,49 +468,60 @@ a:hover span{
     font-size: 30px;
     font-weight: bold;
 }
-.title-topic{ font-size: 30px;}
 
-
+.title-topic {
+    font-size: 30px;
+}
 
 blockquote {
-  font-family: Georgia, serif;
-  border-left: 0px !important;
-  quotes: "\201C""\201D";
-  padding :0!important; 
-  border-left: none !important;
-  text-align: center;
+    font-family: Georgia, serif;
+    border-left: 0px !important;
+    quotes: "\201C""\201D";
+    padding: 0!important;
+    border-left: none !important;
+    text-align: center;
 }
+
 blockquote p:before {
-  color: #999;
-  content: open-quote;
-  font-size: 1em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-  
+    color: #999;
+    content: open-quote;
+    font-size: 1em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
     position: absolute;
     top: 10px;
     left: -10px;
 }
+
 blockquote p {
-  display: inline;
-  line-height: 1.85 !important;
-  font-weight:20 !important;
-  position: relative;
-  padding-left: 5px;
+    display: inline;
+    line-height: 1.85 !important;
+    font-weight: 20 !important;
+    position: relative;
+    padding-left: 5px;
 }
+
 blockquote p:after {
-  color: #999;
-  content: close-quote;
-  font-size: 1em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
+    color: #999;
+    content: close-quote;
+    font-size: 1em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
 }
-blockquote .quote_description{
-font-size:18px;
+
+blockquote .quote_description {
+    font-size: 18px;
 }
-cite { display: inline-block; color: silver; text-align: right; width: 100%;}
+
+cite {
+    display: inline-block;
+    color: silver;
+    text-align: right;
+    width: 100%;
+}
+
 
 /* Small devices (tablets, 768px and down) */
 
