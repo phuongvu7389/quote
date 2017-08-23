@@ -84,7 +84,36 @@
 
     <section id="wrap-author-slide-tag" class="margin-top-bot-100">
 
-        <div class="container-fluid wrap-tag-nav">
+        <div class="container-fluid wrap-tag-nav no-gutter">
+            <div class="owl-1 owl-carousel owl-theme tag-slide">
+                <div class="item" style="background-image:url(&quot;https://source.unsplash.com/500x100/?nature&sig='.rand(0,10).'&quot;);"><a class="background-topic-item" href="">Baby</a></div>
+                <div class="item" style="background-image:url(&quot;https://source.unsplash.com/500x100/?nature&sig='.rand(11,20).'&quot;);"><a class="background-topic-item" href="">Love</a></div>
+                <div class="item" style="background-image:url(&quot;https://source.unsplash.com/500x100/?nature&sig='.rand(21,30).'&quot;);"><a class="background-topic-item" href="">Drink Your Tea</a></div>
+                <div class="item" style="background-image:url(&quot;https://source.unsplash.com/500x100/?nature&sig='.rand(31,40).'&quot;);"><a class="background-topic-item" href="">Family</a></div>
+                <div class="item" style="background-image:url(&quot;https://source.unsplash.com/500x100/?nature&sig='.rand(41,50).'&quot;);"><a class="background-topic-item" href="">Falling</a></div>
+                <div class="item" style="background-image:url(&quot;https://source.unsplash.com/500x100/?nature&sig='.rand(41,60).'&quot;);"><a class="background-topic-item" href="">Dropping</a></div>
+                <div class="item" style="background-image:url(&quot;https://source.unsplash.com/500x100/?nature&sig='.rand(41,70).'&quot;);"><a class="background-topic-item" href="">Sport</a></div>
+                <div class="item" style="background-image:url(&quot;https://source.unsplash.com/500x100/?nature&sig='.rand(41,80).'&quot;);"><a class="background-topic-item" href="">Help</a></div>
+                <div class="item" style="background-image:url(&quot;https://source.unsplash.com/500x100/?nature&sig='.rand(41,90).'&quot;);"><a class="background-topic-item" href="">Kiss</a></div>
+                <div class="item" style="background-image:url(&quot;https://source.unsplash.com/500x100/?nature&sig='.rand(41,100).'&quot;);"><a class="background-topic-item" href="">Lip Autumn</a></div>
+                <div class="item" style="background-image:url(&quot;https://source.unsplash.com/500x100/?nature&sig='.rand(41,10).'&quot;);"><a class="background-topic-item" href="">Sound</a></div>
+                <div class="item" style="background-image:url(&quot;https://source.unsplash.com/500x100/?nature&sig='.rand(41,10).'&quot;);"><a class="background-topic-item" href="">Huge</a></div>
+            </div>
+
+        </div>
+    </section>
+    <section class="margin-top-bot-100">
+        <div class="container">
+            <nav id="breadcrum">
+                <ul itemscope="" itemtype="http://schema.org/BreadcrumbList">
+                    <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" href="/"><span itemprop="name">Home</span></a>
+                        <meta itemprop="position" content="1"> </li>
+                    <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" href="/topic-list"><span itemprop="name">Topics</span></a>
+                        <meta itemprop="position" content="2"> </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
             <div class="owl-1 owl-carousel owl-theme tag-slide">
                 <div class="item" style="background-image:url(&quot;https://source.unsplash.com/500x100/?nature&sig='.rand(0,10).'&quot;);"><a class="background-topic-item" href="">Baby</a></div>
                 <div class="item" style="background-image:url(&quot;https://source.unsplash.com/500x100/?nature&sig='.rand(11,20).'&quot;);"><a class="background-topic-item" href="">Love</a></div>
@@ -429,6 +458,17 @@
                     </div>
                     
                     
+                    <div class="owl-controls">
+                        <div class="owl-nav">
+                            <div class="owl-prev">prev</div>
+                            <div class="owl-next">next</div>
+                        </div>
+                        <div class="owl-dots">
+                            <div class="owl-dot active"><span></span></div>
+                            <div class="owl-dot"><span></span></div>
+                            <div class="owl-dot"><span></span></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -460,7 +500,6 @@
             </div>
         </div>
     </section>
-
     <!-- Map Section -->
     <!-- <div id="map"></div> -->
 
@@ -493,7 +532,7 @@
             margin: 10,
             nav: true,
             navText: ["", ""],
-            
+
             responsive: {
                 0: {
                     items: 1
@@ -514,7 +553,8 @@
             margin: 10,
             autoplay: true,
             autoplayTimeout: 2000,
-            autoplayHoverPause: true
+            autoplayHoverPause: true,
+            nav: true
         });
     </script>
 
