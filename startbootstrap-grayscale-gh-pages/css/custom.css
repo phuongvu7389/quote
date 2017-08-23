@@ -752,4 +752,15 @@ cite {
         left: -20px;
         text-transform: uppercase;
     }
+	blockquote p{font-size:12px;}
+	.title-topic {
+    word-spacing: 0;
+    transform: rotate(0);
+    white-space: nowrap;
+    left: 50%;
+    text-transform: uppercase;
+    transform: translateX(-50%);
+}
+.owl-topic .owl-dots{
+	display:none;
 }
