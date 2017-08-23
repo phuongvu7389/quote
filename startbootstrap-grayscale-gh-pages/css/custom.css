@@ -1,5 +1,13 @@
 /*index page css*/
 
+a:hover{
+    color: green !important;
+}
+a:hover span{
+    color: green !important;
+}
+
+
 .intro-body {
     position: relative;
 }
@@ -90,7 +98,7 @@
 }
 
 .home-middle-slide{
-    background: url('../img/bg-pattern.jpg');
+    background: rgba(28, 28, 28, 0.4);
     padding: 50px 20px 40px 20px;
 }
 .slide-height-homeview .item img {
@@ -199,9 +207,9 @@
 
 .background-topic-item {
     color: white;
-    padding: 30px 0;
+    padding: 30px 10px;
     background-color: rgba(58, 57, 57, 0.51);
-    box-shadow: 0px 0px 11px 1px #555;
+    box-shadow: 0px 0px 5px 1px #555;
     display: block;
 }
 
@@ -269,10 +277,13 @@
     -webkit-transition: box-shadow 0.5s;
     /* For Safari 3.1 to 6.0 */
     transition: box-shadow 0.5s;
+    padding: 0;
+    border: 1px solid #777;
+    border-radius: 2px;
 }
 
 .item.well:hover {
-    box-shadow: 0px 0px 6px 5px #828080;
+    box-shadow: 0px 0px 5px 5px #777;
 }
 
 .row-pin .item p {
@@ -300,7 +311,7 @@
 }
 
 .pin-info a {
-    color: black;
+    color: white;
 }
 
 .pin-img a img {
@@ -320,7 +331,55 @@
     text-align: center;
 }
 
+.topic-in-post{
+    display: inline-block;
+    padding: 0;
+    margin: 10px;   
 
+}
+.topic-in-post a{ color: black;}
+.topic-in-post li{ list-style: none; display: inline-block;}
+
+
+.profession{
+    font-family: cursive;
+    color: #e1e1e1;
+}
+.right-bar-nav{
+    background: rgba(28, 28, 28, 0.5);
+    margin-bottom: 20px;
+}
+.right-bar-nav h3{
+    padding: 0;
+    margin:0;
+    background: rgba(28, 28, 28, 1);
+    color: white;
+    font-family: cursive;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+.right-bar-nav ul{
+    padding: 0;
+    float: left;
+}
+.right-bar-nav ul li{
+    padding: 10px 7px 5px 7px;
+    border-bottom: rgba(28, 28, 28, 0.2);
+    color: white;
+    list-style: none;
+    float: left;
+    width:100%;
+}
+.wrap-right-side-topic ul li{
+    padding: 0;
+    width: 90%;
+    margin: 5px 5%;
+}
+.right-bar-nav ul li a{
+    float: left;
+    width: 100%;
+    color: white;
+}
 /*detail page*/
 
 .content-detail-quote .text {
@@ -348,22 +407,28 @@ blockquote {
   text-align: center;
 }
 blockquote p:before {
-  color: #c00f1e;
+  color: #999;
   content: open-quote;
-  font-size: 3em;
+  font-size: 1em;
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
+  
+    position: absolute;
+    top: 10px;
+    left: -10px;
 }
 blockquote p {
   display: inline;
   line-height: 1.85 !important;
   font-weight:20 !important;
+  position: relative;
+  padding-left: 5px;
 }
 blockquote p:after {
-  color: #c00f1e;
+  color: #999;
   content: close-quote;
-  font-size: 3em;
+  font-size: 1em;
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
