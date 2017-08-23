@@ -320,7 +320,7 @@ a:hover span {
     margin-right: 5px;
 }
 
-.owl-2 .owl-dot:hover, .owl-2 .owl-dot.active{
+.owl-2 .owl-dot:hover, .owl-2 .owl-dot.active,.owl-2 .owl-dot.focus{
     background: rgba(127, 127, 127, 0.5);
 }
 
