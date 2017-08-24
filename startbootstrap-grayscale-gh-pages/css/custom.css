@@ -374,10 +374,35 @@ a:hover span {
 .wrap-right-side-topic ul {
     padding-left: 0;
 }
+.wrap-topic-detail .right-bar-nav,.wrap-topic-detail .topic-list-li{
+    margin: 5px;
+    min-height: 350px;
+}
+.wrap-topic-detail .topic-list-li h3{
+    border-bottom: 1px solid;
+    font-family: cursive;
+    padding: 7px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 50px;
+}
+.wrap-topic-detail .topic-list-li li{
+    list-style: none;
+    text-align: right;    
+}
 
+.topic-title h2,.rnd-color{
+    border-bottom: 1px solid;
+}
 .topic-content ul li {
     list-style: none;
 }
+.topic-content ul li a {
+    padding: 5px 0;
+    width: 100%;
+    float: left;    
+}
+
 
 .wrap-topic-detail {
     margin: 30px 0;
@@ -615,7 +640,7 @@ a:hover span {
     margin-bottom: 20px;
 }
 
-.right-bar-nav h3 {
+.right-bar-nav h3{
     padding: 0;
     margin: 0;
     background: rgba(28, 28, 28, 1);
@@ -630,7 +655,7 @@ a:hover span {
     float: left;
 }
 
-.right-bar-nav ul li {
+.right-bar-nav ul li, .topic-list-li li {
     padding: 10px 7px 5px 7px;
     border-bottom: rgba(28, 28, 28, 0.2);
     color: white;
