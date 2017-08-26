@@ -750,6 +750,7 @@ cite {
     text-align: right;
     width: 100%;
 }
+/*list-author page*/
 
 /* Small devices (tablets, 768px and down) */
 
@@ -761,7 +762,7 @@ cite {
 
 @media (max-width: 768px) {
     .wrap-search {
-        width: 270px;
+        width: auto;
     }
     .box-highlight {
         left: 10px;
